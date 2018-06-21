@@ -4,7 +4,7 @@
 
 const int analogInPin = 15; // 模拟输入引脚
 
-const int pwmOutPin = LED_BUILTIN;    //led连接到pwm输出引脚
+const int pwmOutPin = 14;    //led连接到pwm输出引脚
 
 int sensorValue = 0;        // 从引脚读到的值
 int outputValue = 0;        //输出到pwm脚的值

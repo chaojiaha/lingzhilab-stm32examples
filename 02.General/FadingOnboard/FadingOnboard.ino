@@ -2,7 +2,7 @@
 连接led到一个可以输出PWM的引脚上，实现呼吸灯的效果
 */
 
-int ledPin = LED_BUILTIN;
+int ledPin = 14;
 void setup() {
     pinMode(ledPin, PWM);  // 设置引脚为输出pwm模式
 }

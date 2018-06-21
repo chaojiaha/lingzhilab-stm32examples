@@ -1,9 +1,9 @@
 /*
-*	在模拟A7脚测量电压值，使用pwm输出控制LED灯达到呼吸灯的效果
+*	在模拟A0脚测量电压值，使用pwm输出控制LED灯达到呼吸灯的效果
 */
 
-#define SENSOR_PIN	A7		//模拟引脚
-#define LED_2		PWM6	//pwm引脚
+#define SENSOR_PIN	A0		//模拟引脚
+#define LED_2		2	//pwm引脚
 
 void setup() { 
   Serial.begin(9600);
